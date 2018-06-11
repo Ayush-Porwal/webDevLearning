@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Project2 | JavaScript</title>
+    <script>
+        var X = new Array(85,92,45,33,61,75,69,14);
+        function findMax()
+        {
+            max = X[0];
+            for(var i=1 ; i<8 ; i++)
+            {
+                if(X[i]>max)
+                {
+                    max = X[i];
+                }
+            }
+            document.write("The maximum value stored in the array is:- " + max);
+        }
+    </script>
+</head>
+
+<body>
+    <h1>The values taken in array are:- 85,92,45,33,61,75,69,14</h1>
+    <button type="button" onclick="findMax()">The Maximum Value in Array</button>
+</body>
+</html>

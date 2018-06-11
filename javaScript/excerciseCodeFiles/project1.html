@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Project-1 | JavaScript</title>
+    <script>
+            function result()
+            {
+                var sum = 0;
+                for(var i = 0 ; i<5 ; i++)
+                {
+                    sum = sum + parseFloat(document.getElementById(i).value);
+                }
+                document.write("<h4>The total marks obtained are:- " + sum + " & the percentage is:- " + sum/5 + "%</h4>");
+            }
+    </script>    
+</head>
+
+<body>
+    <form name="marks_data">
+        <h1>Enter the marks of 5 subjects</h1>
+        Subject1:- 
+        <input id="0" type="text" value="subject1"><br><br>
+        Subject2:- 
+        <input id="1" type="text" value="subject2"><br><br>
+        Subject3:- 
+        <input id="2" type="text" value="subject3"><br><br>
+        Subject4:- 
+        <input id="3" type="text" value="subject4"><br><br>
+        Subject5:- 
+        <input id="4" type="text" value="subject5"><br><br>
+        <button type="button" onclick="result()">Check Result</button>
+    </form>
+</body>
+</html>

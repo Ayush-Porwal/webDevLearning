@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Project4 | JavaScript</title>
+    <script>
+        function getRemark()
+        {
+            switch(document.getElementById("0").value)
+            {
+                case 'A': document.write("Pass: Excellent, keep working like this!");
+                          break;
+                case 'B': document.write("Pass: Very good, keep it up!");
+                          break;
+                case 'C': document.write("Pass: You need to work more!");
+                          break;
+                case 'D': document.write("Pass: Poor, work hard and give more time to studies!");
+                          break;
+                case 'E': document.write("Fail: Very poor, you will have to repeat the semester!");
+                          break;
+                default: document.write("Enter the grade awarded within the range(A-E) only~")
+            }
+        }
+    </script>
+</head>
+<body>
+    <h3>Enter your semester grade to get teacher's remark on your performance!</h3>
+    <input id = "0" type="text" value="E"><br><br>
+    <button type="button" onclick="getRemark()">Submit</button>
+</body>
+</html>
