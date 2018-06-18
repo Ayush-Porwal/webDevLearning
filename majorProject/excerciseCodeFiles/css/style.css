@@ -1,0 +1,161 @@
+body{
+    background-color: lightgray;
+}
+
+#top-bar{
+    list-style: none;
+    border-style: solid;
+    border-radius: 40px;
+    background-color: #495057;
+    height: 40px;
+}
+
+#top-bar > li{
+    display: inline-block;
+    height: 36px;
+    padding-right: 10%;
+    padding-top: -4px;
+}
+
+#top-bar > li >a#company-name{
+    font-size: 30px;
+}
+
+#top-bar > li > a{
+    height: 40px;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#top-bar > li > a:hover{
+    color: #64b2f7;
+}
+
+#top-bar > li > a > i[class = "fas fa-shopping-cart"]{
+    color: #ffffff;
+}
+
+#top-bar > li > a > i[class = "fas fa-shopping-cart"]:hover{
+    color: #64b2f7;
+}
+
+ul > li:nth-child(2) > form > input{
+    width: 300px;
+    height: 20px;
+}
+
+#nav-bar{
+    list-style: none;
+    border-style: solid;
+    border-radius: 40px;
+    background-color: #495057;
+    height: 40px;
+}
+
+#nav-bar > li{
+    display: inline-block;
+    height: 36px;
+    padding-right: 10%;
+    padding-top: 8px;
+}
+
+#nav-bar > li > a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#nav-bar > li > a:hover{
+    color: aqua;
+}
+
+#deals,#featured-brands-heading{
+    border-style: solid black;
+    border-radius: 40px;
+    background-color: #495057;
+    text-align: center;
+    color: #ffffff;
+}
+
+#deals:hover,#featured-brands-heading:hover{
+    color: #64b2f7;
+}
+
+#deals-img, #featured-brands{
+    list-style: none;
+}
+
+#deals-img > li, #featured-brands > li{
+    display: inline-block;
+    padding-right: 6%;
+}
+
+#track, #get-social{
+    list-style: none;
+    text-align: center;
+    height: 40px;
+    border-style: solid;
+    background-color: #495057;
+    border-radius: 40px;
+}
+
+#track > li{
+    display: inline-block;
+    height: 36px;
+    padding-right: 14%;
+}
+
+#track > li > i[class="fas fa-truck-moving fa-2x"], #track > li > i[class="fas fa-undo-alt fa-2x"], #track > li > i[class="fas fa-ban fa-2x"], #get-social > li > i[class="fab fa-facebook fa-2x"], #get-social > li > i[class="fab fa-twitter fa-2x"], #get-social > li > i[class="fab fa-google-plus fa-2x"]{
+    color: #ffffff;
+    padding-top: 2px;
+}
+
+#track > li > i[class="fas fa-truck-moving fa-2x"]:hover, #track > li > i[class="fas fa-undo-alt fa-2x"]:hover, #track > li > i[class="fas fa-ban fa-2x"]:hover, #get-social > li > i[class="fab fa-twitter fa-2x"]:hover{
+    color: #64b2f7;
+}
+
+#get-social > li{
+    display: inline-block;
+    padding-right: 18%;
+}
+
+#contact{
+    font-size: 30px;
+    color: white;
+}
+
+#contact:hover{
+    color: #64b2f7;
+}
+
+#get-social > li > i[class="fab fa-google-plus fa-2x"]:hover{
+    color: #dd4d42;
+}
+
+#get-social > li > i[class="fab fa-facebook fa-2x"]:hover{
+    color: #3b579d;
+}
+
+#big-list{
+    list-style: none;
+    background-color: #222222;
+    border:2px solid black;
+    border-radius: 40px;
+    
+}
+
+#big-list li{
+    list-style: none;
+}
+
+#big-list > li{
+    display: inline-block;
+    color: white;
+    padding-right: 20%;
+}
+
+#big-list a{
+    color: white;
+    text-decoration: none;
+}
