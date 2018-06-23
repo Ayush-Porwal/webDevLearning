@@ -71,7 +71,7 @@ ul > li:nth-child(2) > form > input{
 }
 
 #deals,#featured-brands-heading{
-    border-style: solid black;
+    border: 4px solid black;
     border-radius: 40px;
     background-color: #495057;
     text-align: center;
@@ -106,18 +106,26 @@ ul > li:nth-child(2) > form > input{
     padding-right: 14%;
 }
 
-#track > li > i[class="fas fa-truck-moving fa-2x"], #track > li > i[class="fas fa-undo-alt fa-2x"], #track > li > i[class="fas fa-ban fa-2x"], #get-social > li > i[class="fab fa-facebook fa-2x"], #get-social > li > i[class="fab fa-twitter fa-2x"], #get-social > li > i[class="fab fa-google-plus fa-2x"]{
+#track > li > i[class="fas fa-truck-moving fa-2x"], #track > li > i[class="fas fa-undo-alt fa-2x"], #track > li > i[class="fas fa-ban fa-2x"], #get-social > li > a > i[class="fab fa-facebook fa-2x"], #get-social > li > i[class="fab fa-twitter fa-2x"], #get-social > li > a >i[class="fab fa-google-plus fa-2x"]{
     color: #ffffff;
     padding-top: 2px;
 }
 
-#track > li > i[class="fas fa-truck-moving fa-2x"]:hover, #track > li > i[class="fas fa-undo-alt fa-2x"]:hover, #track > li > i[class="fas fa-ban fa-2x"]:hover, #get-social > li > i[class="fab fa-twitter fa-2x"]:hover{
+#track > li > i[class="fas fa-truck-moving fa-2x"]:hover, #track > li > i[class="fas fa-undo-alt fa-2x"]:hover, #get-social > li > a > i[class="fab fa-twitter fa-2x"]:hover{
     color: #64b2f7;
+}
+
+#track > li > i[class="fas fa-ban fa-2x"]:hover{
+    color:rgb(255, 43, 15);
 }
 
 #get-social > li{
     display: inline-block;
     padding-right: 18%;
+}
+
+#get-social > li > a[href="https://twitter.com/Prom_Ayush"]{
+    color: white;
 }
 
 #contact{
@@ -129,12 +137,16 @@ ul > li:nth-child(2) > form > input{
     color: #64b2f7;
 }
 
-#get-social > li > i[class="fab fa-google-plus fa-2x"]:hover{
+#get-social > li > a > i[class="fab fa-google-plus fa-2x"]:hover{
     color: #dd4d42;
 }
 
-#get-social > li > i[class="fab fa-facebook fa-2x"]:hover{
+#get-social > li > a > i[class="fab fa-facebook fa-2x"]:hover{
     color: #3b579d;
+}
+
+#big-list a:hover{
+    color: #64b2f7;
 }
 
 #big-list{

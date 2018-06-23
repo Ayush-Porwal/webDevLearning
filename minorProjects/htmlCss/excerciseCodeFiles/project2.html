@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        body{
+            background-color: black;
+            color: white;
+            font-size: 20px;
+        }
+        .feedback{
+            padding-bottom: 6px;
+            border: 4px solid white;
+        }
+        .feedback h1,#sub-heading{
+            text-align: center;
+            font-family: cursive;
+        }
+        span{
+            color: red;
+        }
+    </style>
+    <title>Beverage Store</title>
+</head>
+<body>
+    <h1 style="text-align: center; color: white; padding: 0; font-size: 60px; font-family: cursive;">About TotalWine</h1><hr>
+    <p style="text-align: justify; color: white;">We're passionate about wine, and know many of our customers feel the same way. So we are committed to offering the nation's best wine selection, with an emphasis on fine wines. Our typical store carries more than 8,000 different wines from every wine-producing region in the world. The typical Total Wine & More also carries more than 2,500 beers, from America‘s most popular brands to hard-to-find microbrews and imports, and more than 3,000 different spirits in every style and price range. We're also committed to having the lowest prices on wine, spirits and beer every day. Our tremendous buying power and special relationships with producers, importers and wholesalers bring us considerable savings, which we pass on to our customers.But it's our Team Members who make the Total Wine & More shopping experience so special. Total Wine & More employs more than 4,000 dedicated men and women, including 600 wine service team members and 50 of our most knowledgeable wine experts, the Total Wine Professionals. All of our wine team members participate in extensive training programs, weekly team wine tastings and monthly wine-producer seminars. Many travel to winemaking regions to meet our producers and learn about their wines firsthand.The goal is to ensure each customer has an exceptional wine-buying experience. Do you need an expert recommendation for a wine? Or do you know what you want, and just need directions to the right aisle? Whether you are new to the world of wine or a great wine enthusiast, we want all our customers to be confident and comfortable exploring our stores and selecting the wines they prefer. That's the Total Wine Experience.</p>
+    <hr>
+    <img style="width: 100%; height: 500px;" src="./images/feedback.jpg" alt="Feedback">
+    <div class="feedback">
+        <h1>Beverage FeedBack Form</h1>
+        <p id="sub-heading">Please note, <span>*</span>is a compulsory field</p>
+        <hr>
+        <p>Please rate us according to your latest experience</p>
+        <form name="beverage-feedback">
+            <label for="Overall-Experience">Overall Experience</label><span>*</span>:<br>
+            <input type="radio" name="1"> Excellent<br>
+            <input type="radio" name="1"> Very Good<br>
+            <input type="radio" name="1"> Good<br>
+            <input type="radio" name="1"> Fair<br>
+            <input type="radio" name="1"> Poor<br>
+            <hr>
+            Quality of Beverage<span>*</span>:<br>
+            <input type="radio" name="2"> Very Good<br>
+            <input type="radio" name="2"> Excellent<br>
+            <input type="radio" name="2"> Good<br>
+            <input type="radio" name="2"> Fair<br>
+            <input type="radio" name="2"> Poor<br>
+            <hr>
+            Quality Of Service<span>*</span>:<br>
+            <input type="radio" name="3"> Excellent<br>
+            <input type="radio" name="3"> Very Good<br>
+            <input type="radio" name="3"> Good<br>
+            <input type="radio" name="3"> Fair<br>
+            <input type="radio" name="3"> Poor<br>
+            <hr>
+            Beverage Variety:<br>
+            <input type="radio" name="4"> Excellent<br>
+            <input type="radio" name="4"> Very Good<br>
+            <input type="radio" name="4"> Good<br>
+            <input type="radio" name="4"> Fair<br>
+            <input type="radio" name="4"> Poor<br>
+            <hr>
+            Overall Value For Money:<br>
+            <input type="radio" name="5"> Excellent<br>
+            <input type="radio" name="5"> Very Good<br>
+            <input type="radio" name="5"> Good<br>
+            <input type="radio" name="5"> Fair<br>
+            <input type="radio" name="5"> Poor<br>
+            <hr>
+            Please share your thoughts on what we can do to improve your experience: <br>
+            <input type="text" style="height: 100px; width: 25%; font-family: cursive;" placeholder="Enter your comments here...">
+            <hr>
+            Thankyou for your response<br><hr> 
+            Full Name<span>*</span>: <input id="name" type="text" placeholder="eg. Rajesh" style="font-family: cursive;"><br><br>
+            Phone Number<span>*</span>: <input id="number" type="text" placeholder="eg.9998756985" style="font-family: cursive;"><br><br>
+            Email<span>*</span>: <input id="email" type="text" placeholder="rajesha@gmail.com" style="font-family: cursive;"><br><br>
+            Contact Preferance<span>*</span>:
+            <input type="radio" name="choice">Phone
+            <input type="radio" name="choice">Email<br>
+            <hr>
+            <input type="submit"><br>
+        </form>
+    </div>
+</body>
+</html>
